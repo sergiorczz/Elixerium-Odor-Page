@@ -10,23 +10,23 @@ export const SITE_URL = configuredSiteUrl || DEFAULT_SITE_URL;
 export const SITE_BASE_PATH =
   configuredBasePath || (process.env.NODE_ENV === 'production' ? DEFAULT_BASE_PATH : '/');
 export const ACTIVE_TEMPLATE = 'default';
-export const SITE_LOCALE = 'en';
+export const SITE_LOCALE = 'es';
 
 export const TEMPLATE_CONFIG = {
   id: 'forma',
-  name: 'FORMA',
+  name: 'Elixerium Odor',
   version: '0.1.0',
 };
 
 export const BUILD_SCOPE = {
   // Publiczne demo obejmuje gotową stronę Formy, bez przykładowych podstron fundamentu.
-  pages: ['/', '/privacy-policy', '/pl/', '/pl/privacy-policy', '/en/', '/en/privacy-policy'],
+  pages: ['/', '/privacy-policy'],
   forceRemove: ['dev', 'qa'],
   images: true,
 };
 
 export const siteConfig = {
-  name: 'FORMA',
-  description: 'Astro template for construction and renovation service websites.',
+  name: 'Elixerium Odor',
+  description: 'Perfumería en Chapinero, Bogotá.',
   locale: SITE_LOCALE,
 };
